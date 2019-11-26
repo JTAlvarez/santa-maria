@@ -1,37 +1,64 @@
 .main-header-container{
 display: block;
-
+border-bottom: 1px;
+border-bottom-color: gray;
+border-bottom-style: solid;
 }
 
+/* Menu Styles */
 .menu-parent-container{
     display: block;
     list-style-type:none;
     overflow: hidden;
     position: relative;
 }
-
 .menu-links-container{
-    display: inline-block;
-    width: 49%;
     float: left;
+    width: 49%;    
 }
-
 .menu-elements-container{
-    display: inline-block;
-    width: 49%;
     float: left;
-    
+    width: 49%;      
 }
-
 ul.menu-elements{
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
 .menu-links{
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
 .menu-links li a{
-    color: black !important;
-    text-decoration-line: none !important; 
+    color: black;
+    text-decoration-line: none; 
+}
+.menu-elements-container a{
+    color: black;
+    text-decoration-line: none;
+    font-style: bold;
+}
+.menu-elements-container img{
+    float: right;
+}
+
+/* Footer Styles*/
+
+.footer-container{
+    display: block;
+    background-color: gray;
+    overflow: hidden;
+}
+.footer-img-container{
+    float: left;
+    overflow: auto;
+    width: 25%;
+}
+.footer-img-container img{
+    width: 100%;
+}
+.footer-links-container{
+    float: right;
+    
+}
+.footer-links-container li{
+    list-style-type:none;
+    padding: 5px;
 }
