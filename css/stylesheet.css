@@ -1,0 +1,37 @@
+.main-header-container{
+display: block;
+
+}
+
+.menu-parent-container{
+    display: block;
+    list-style-type:none;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-links-container{
+    display: inline-block;
+    width: 49%;
+    float: left;
+}
+
+.menu-elements-container{
+    display: inline-block;
+    width: 49%;
+    float: left;
+    
+}
+
+ul.menu-elements{
+    list-style-type: none;
+    
+}
+.menu-links{
+    list-style-type: none;
+    
+}
+.menu-links li a{
+    color: black !important;
+    text-decoration-line: none !important; 
+}
